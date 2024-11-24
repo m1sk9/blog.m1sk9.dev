@@ -60,7 +60,7 @@ params:
     hiddenInSingle: true
 
   editPost:
-    URL: "https://github.com/m1sk9/blog.m1sk9.dev/content"
+    URL: "https://github.com/m1sk9/blog.m1sk9.dev/edit/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
