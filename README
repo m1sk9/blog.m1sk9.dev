@@ -1,0 +1,15 @@
+blog.m1sk9.dev
+==============
+
+This repository is the source code of blog.m1sk9.dev.
+
+# Development
+
+- Serve: `hugo server`
+- Build: `hugo build`
+
+# Create a new post
+
+```
+x create <file-name>
+```
