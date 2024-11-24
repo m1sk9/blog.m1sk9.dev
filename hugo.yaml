@@ -1,0 +1,93 @@
+baseURL: https://blog.m1sk9.dev/
+languageCode: ja-jp
+title: blog.m1sk9.dev
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: blog.m1sk9.dev
+  description: "m1sk9's' personal blog"
+  keywords: [Blog, m1sk9]
+  author: Sho Sakuma
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Knowledge portal"
+    Content: blog.m1sk9.dev
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/m1sk9.dev"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  editPost:
+    URL: "https://github.com/m1sk9/blog.m1sk9.dev/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: portfolio
+      name: m1sk9.dev
+      url: https://m1sk9.dev
+      weight: 30
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
