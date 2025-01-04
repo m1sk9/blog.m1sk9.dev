@@ -1,3 +1,3 @@
 [submodule "themes/serene"]
 	path = themes/serene
-	url = git@github.com:m1sk9-lib/serene.git
+	url = https://github.com/m1sk9-lib/serene.git
